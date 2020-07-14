@@ -1,0 +1,384 @@
+
+*** Running vivado
+    with args -log ultra96v2_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ultra96v2_wrapper.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source ultra96v2_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/vivado_2018.2/Vivado/2018.2/data/ip'.
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1672.406 ; gain = 468.266 ; free physical = 2521 ; free virtual = 17779
+Command: synth_design -top ultra96v2_wrapper -part xczu3eg-sbva484-1-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25343 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1672.531 ; gain = 0.000 ; free physical = 2413 ; free virtual = 17671
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_wrapper' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/hdl/ultra96v2_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:13]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_clk_wiz_0_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_clk_wiz_0_0' (1#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_clk_wiz_0_0_stub.v:5]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:55]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_proc_sys_reset_0_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_proc_sys_reset_0_0' (2#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'proc_sys_reset_0' of module 'ultra96v2_proc_sys_reset_0_0' requires 10 connections, but only 5 given [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:55]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:61]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_proc_sys_reset_1_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_proc_sys_reset_1_0' (3#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_1_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'proc_sys_reset_1' of module 'ultra96v2_proc_sys_reset_1_0' requires 10 connections, but only 5 given [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:61]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:67]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_proc_sys_reset_2_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_proc_sys_reset_2_0' (4#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_2_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'proc_sys_reset_2' of module 'ultra96v2_proc_sys_reset_2_0' requires 10 connections, but only 5 given [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:67]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:73]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_proc_sys_reset_3_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_proc_sys_reset_3_0' (5#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_3_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'proc_sys_reset_3' of module 'ultra96v2_proc_sys_reset_3_0' requires 10 connections, but only 5 given [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:73]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:79]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_proc_sys_reset_4_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_4_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_proc_sys_reset_4_0' (6#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_4_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'proc_sys_reset_4' of module 'ultra96v2_proc_sys_reset_4_0' requires 10 connections, but only 5 given [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:79]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:85]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_proc_sys_reset_5_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_5_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_proc_sys_reset_5_0' (7#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_5_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'proc_sys_reset_5' of module 'ultra96v2_proc_sys_reset_5_0' requires 10 connections, but only 5 given [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:85]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:91]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_proc_sys_reset_6_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_6_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_proc_sys_reset_6_0' (8#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_proc_sys_reset_6_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'proc_sys_reset_6' of module 'ultra96v2_proc_sys_reset_6_0' requires 10 connections, but only 5 given [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:91]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:97]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_rst_ps8_0_99M_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_rst_ps8_0_99M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_rst_ps8_0_99M_0' (9#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_rst_ps8_0_99M_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_ps8_0_99M' of module 'ultra96v2_rst_ps8_0_99M_0' requires 10 connections, but only 5 given [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:97]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_xlconcat_0_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_xlconcat_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_xlconcat_0_0' (10#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_xlconcat_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_xlconcat_1_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_xlconcat_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_xlconcat_1_0' (11#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_xlconcat_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ultra96v2_zynq_ultra_ps_e_0_0' [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_zynq_ultra_ps_e_0_0' (12#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/.Xil/Vivado-25338-zw-pc/realtime/ultra96v2_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'zynq_ultra_ps_e_0' of module 'ultra96v2_zynq_ultra_ps_e_0_0' requires 52 connections, but only 23 given [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:109]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2' (13#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/synth/ultra96v2.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96v2_wrapper' (14#1) [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/hdl/ultra96v2_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1672.531 ; gain = 0.000 ; free physical = 2426 ; free virtual = 17685
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1672.531 ; gain = 0.000 ; free physical = 2426 ; free virtual = 17685
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1672.531 ; gain = 0.000 ; free physical = 2426 ; free virtual = 17685
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_zynq_ultra_ps_e_0_0_2/ultra96v2_zynq_ultra_ps_e_0_0/ultra96v2_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'ultra96v2_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_zynq_ultra_ps_e_0_0_2/ultra96v2_zynq_ultra_ps_e_0_0/ultra96v2_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'ultra96v2_i/zynq_ultra_ps_e_0'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_0_0_2/ultra96v2_proc_sys_reset_0_0/ultra96v2_proc_sys_reset_0_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_0'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_0_0_2/ultra96v2_proc_sys_reset_0_0/ultra96v2_proc_sys_reset_0_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_0'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_clk_wiz_0_0_2/ultra96v2_clk_wiz_0_0/ultra96v2_clk_wiz_0_0_in_context.xdc] for cell 'ultra96v2_i/clk_wiz_0'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_clk_wiz_0_0_2/ultra96v2_clk_wiz_0_0/ultra96v2_clk_wiz_0_0_in_context.xdc] for cell 'ultra96v2_i/clk_wiz_0'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_xlconcat_0_0_2/ultra96v2_xlconcat_0_0/ultra96v2_xlconcat_1_0_in_context.xdc] for cell 'ultra96v2_i/xlconcat_0'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_xlconcat_0_0_2/ultra96v2_xlconcat_0_0/ultra96v2_xlconcat_1_0_in_context.xdc] for cell 'ultra96v2_i/xlconcat_0'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_xlconcat_1_0_2/ultra96v2_xlconcat_1_0/ultra96v2_xlconcat_1_0_in_context.xdc] for cell 'ultra96v2_i/xlconcat_1'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_xlconcat_1_0_2/ultra96v2_xlconcat_1_0/ultra96v2_xlconcat_1_0_in_context.xdc] for cell 'ultra96v2_i/xlconcat_1'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_1_0_2/ultra96v2_proc_sys_reset_1_0/ultra96v2_proc_sys_reset_1_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_1'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_1_0_2/ultra96v2_proc_sys_reset_1_0/ultra96v2_proc_sys_reset_1_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_1'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_2_0_2/ultra96v2_proc_sys_reset_2_0/ultra96v2_proc_sys_reset_2_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_2'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_2_0_2/ultra96v2_proc_sys_reset_2_0/ultra96v2_proc_sys_reset_2_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_2'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_3_0_2/ultra96v2_proc_sys_reset_3_0/ultra96v2_proc_sys_reset_3_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_3'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_3_0_2/ultra96v2_proc_sys_reset_3_0/ultra96v2_proc_sys_reset_3_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_3'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_4_0_2/ultra96v2_proc_sys_reset_4_0/ultra96v2_proc_sys_reset_4_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_4'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_4_0_2/ultra96v2_proc_sys_reset_4_0/ultra96v2_proc_sys_reset_4_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_4'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_5_0_2/ultra96v2_proc_sys_reset_5_0/ultra96v2_proc_sys_reset_5_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_5'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_5_0_2/ultra96v2_proc_sys_reset_5_0/ultra96v2_proc_sys_reset_5_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_5'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_6_0_2/ultra96v2_proc_sys_reset_6_0/ultra96v2_proc_sys_reset_6_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_6'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_proc_sys_reset_6_0_2/ultra96v2_proc_sys_reset_6_0/ultra96v2_proc_sys_reset_6_0_in_context.xdc] for cell 'ultra96v2_i/proc_sys_reset_6'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_rst_ps8_0_99M_0/ultra96v2_rst_ps8_0_99M_0/ultra96v2_rst_ps8_0_99M_0_in_context.xdc] for cell 'ultra96v2_i/rst_ps8_0_99M'
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/sources_1/bd/ultra96v2/ip/ultra96v2_rst_ps8_0_99M_0/ultra96v2_rst_ps8_0_99M_0/ultra96v2_rst_ps8_0_99M_0_in_context.xdc] for cell 'ultra96v2_i/rst_ps8_0_99M'
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/constrs_1/new/ultra96v2.xdc]
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/constrs_1/new/ultra96v2.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.srcs/constrs_1/new/ultra96v2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ultra96v2_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ultra96v2_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2303.617 ; gain = 0.000 ; free physical = 1802 ; free virtual = 17062
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2303.617 ; gain = 631.086 ; free physical = 1862 ; free virtual = 17122
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2303.617 ; gain = 631.086 ; free physical = 1862 ; free virtual = 17122
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for ultra96v2_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/proc_sys_reset_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/xlconcat_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/proc_sys_reset_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/proc_sys_reset_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/proc_sys_reset_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/proc_sys_reset_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/proc_sys_reset_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/proc_sys_reset_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ultra96v2_i/rst_ps8_0_99M. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2303.617 ; gain = 631.086 ; free physical = 1862 ; free virtual = 17122
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2303.617 ; gain = 631.086 ; free physical = 1861 ; free virtual = 17121
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 2303.617 ; gain = 631.086 ; free physical = 1849 ; free virtual = 17111
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ultra96v2_i/zynq_ultra_ps_e_0/pl_clk0' to pin 'ultra96v2_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ultra96v2_i/clk_wiz_0/clk_in1' to pin 'ultra96v2_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ultra96v2_i/clk_wiz_0/clk_out1' to pin 'ultra96v2_i/clk_wiz_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'ultra96v2_i/clk_wiz_0/clk_in1' to 'ultra96v2_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ultra96v2_i/clk_wiz_0/clk_out2' to pin 'ultra96v2_i/clk_wiz_0/bbstub_clk_out2/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'ultra96v2_i/clk_wiz_0/clk_in1' to 'ultra96v2_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ultra96v2_i/clk_wiz_0/clk_out3' to pin 'ultra96v2_i/clk_wiz_0/bbstub_clk_out3/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'ultra96v2_i/clk_wiz_0/clk_in1' to 'ultra96v2_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ultra96v2_i/clk_wiz_0/clk_out4' to pin 'ultra96v2_i/clk_wiz_0/bbstub_clk_out4/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'ultra96v2_i/clk_wiz_0/clk_in1' to 'ultra96v2_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ultra96v2_i/clk_wiz_0/clk_out5' to pin 'ultra96v2_i/clk_wiz_0/bbstub_clk_out5/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'ultra96v2_i/clk_wiz_0/clk_in1' to 'ultra96v2_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ultra96v2_i/clk_wiz_0/clk_out6' to pin 'ultra96v2_i/clk_wiz_0/bbstub_clk_out6/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'ultra96v2_i/clk_wiz_0/clk_in1' to 'ultra96v2_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ultra96v2_i/clk_wiz_0/clk_out7' to pin 'ultra96v2_i/clk_wiz_0/bbstub_clk_out7/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'ultra96v2_i/clk_wiz_0/clk_in1' to 'ultra96v2_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5819] Moved 9 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2516.453 ; gain = 843.922 ; free physical = 1295 ; free virtual = 16556
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2516.453 ; gain = 843.922 ; free physical = 1295 ; free virtual = 16556
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2516.453 ; gain = 843.922 ; free physical = 1295 ; free virtual = 16556
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2516.453 ; gain = 843.922 ; free physical = 1294 ; free virtual = 16556
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2516.453 ; gain = 843.922 ; free physical = 1294 ; free virtual = 16556
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2516.453 ; gain = 843.922 ; free physical = 1294 ; free virtual = 16556
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2516.453 ; gain = 843.922 ; free physical = 1294 ; free virtual = 16556
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2516.453 ; gain = 843.922 ; free physical = 1294 ; free virtual = 16556
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2516.453 ; gain = 843.922 ; free physical = 1294 ; free virtual = 16556
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |ultra96v2_clk_wiz_0_0         |         1|
+|2     |ultra96v2_proc_sys_reset_0_0  |         1|
+|3     |ultra96v2_proc_sys_reset_1_0  |         1|
+|4     |ultra96v2_proc_sys_reset_2_0  |         1|
+|5     |ultra96v2_proc_sys_reset_3_0  |         1|
+|6     |ultra96v2_proc_sys_reset_4_0  |         1|
+|7     |ultra96v2_proc_sys_reset_5_0  |         1|
+|8     |ultra96v2_proc_sys_reset_6_0  |         1|
+|9     |ultra96v2_rst_ps8_0_99M_0     |         1|
+|10    |ultra96v2_xlconcat_0_0        |         1|
+|11    |ultra96v2_xlconcat_1_0        |         1|
+|12    |ultra96v2_zynq_ultra_ps_e_0_0 |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------+------+
+|      |Cell                          |Count |
++------+------------------------------+------+
+|1     |ultra96v2_clk_wiz_0_0         |     1|
+|2     |ultra96v2_proc_sys_reset_0_0  |     1|
+|3     |ultra96v2_proc_sys_reset_1_0  |     1|
+|4     |ultra96v2_proc_sys_reset_2_0  |     1|
+|5     |ultra96v2_proc_sys_reset_3_0  |     1|
+|6     |ultra96v2_proc_sys_reset_4_0  |     1|
+|7     |ultra96v2_proc_sys_reset_5_0  |     1|
+|8     |ultra96v2_proc_sys_reset_6_0  |     1|
+|9     |ultra96v2_rst_ps8_0_99M_0     |     1|
+|10    |ultra96v2_xlconcat_0_0        |     1|
+|11    |ultra96v2_xlconcat_1_0        |     1|
+|12    |ultra96v2_zynq_ultra_ps_e_0_0 |     1|
+|13    |IBUF                          |     2|
+|14    |OBUF                          |     2|
++------+------------------------------+------+
+
+Report Instance Areas: 
++------+--------------+----------+------+
+|      |Instance      |Module    |Cells |
++------+--------------+----------+------+
+|1     |top           |          |   403|
+|2     |  ultra96v2_i |ultra96v2 |   399|
++------+--------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2516.453 ; gain = 843.922 ; free physical = 1294 ; free virtual = 16556
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 2517.453 ; gain = 213.836 ; free physical = 1330 ; free virtual = 16592
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2517.461 ; gain = 844.922 ; free physical = 1330 ; free virtual = 16592
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+60 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:44 . Memory (MB): peak = 2546.484 ; gain = 874.078 ; free physical = 1321 ; free virtual = 16583
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1/ultra96v2_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ultra96v2_wrapper_utilization_synth.rpt -pb ultra96v2_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2546.484 ; gain = 0.000 ; free physical = 1321 ; free virtual = 16583
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 23 15:50:58 2019...

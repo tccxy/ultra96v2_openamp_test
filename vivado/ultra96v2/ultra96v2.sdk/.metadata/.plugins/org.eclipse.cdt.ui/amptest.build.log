@@ -1,0 +1,61 @@
+13:02:57 **** Auto Build of configuration Debug for project amptest ****
+make all 
+Building file: ../src/can_app.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/can_app.o" -mcpu=cortex-r5 -I../../amptest_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/can_app.d" -MT"src/can_app.o" -o "src/can_app.o" "../src/can_app.c"
+Finished building: ../src/can_app.c
+ 
+Building file: ../src/helper.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helper.o" -mcpu=cortex-r5 -I../../amptest_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/helper.d" -MT"src/helper.o" -o "src/helper.o" "../src/helper.c"
+Finished building: ../src/helper.c
+ 
+Building file: ../src/platform_info.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_info.o" -mcpu=cortex-r5 -I../../amptest_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/platform_info.d" -MT"src/platform_info.o" -o "src/platform_info.o" "../src/platform_info.c"
+Finished building: ../src/platform_info.c
+ 
+Building file: ../src/rsc_table.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rsc_table.o" -mcpu=cortex-r5 -I../../amptest_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/rsc_table.d" -MT"src/rsc_table.o" -o "src/rsc_table.o" "../src/rsc_table.c"
+Finished building: ../src/rsc_table.c
+ 
+Building file: ../src/tcc_app.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tcc_app.o" -mcpu=cortex-r5 -I../../amptest_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/tcc_app.d" -MT"src/tcc_app.o" -o "src/tcc_app.o" "../src/tcc_app.c"
+Finished building: ../src/tcc_app.c
+ 
+Building file: ../src/test.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test.o" -mcpu=cortex-r5 -I../../amptest_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/test.d" -MT"src/test.o" -o "src/test.o" "../src/test.c"
+../src/test.c: In function 'rpmsg_send_cb':
+../src/test.c:165:3: warning: 'return' with no value, in function returning non-void
+   return ;
+   ^~~~~~
+../src/test.c:158:5: note: declared here
+ int rpmsg_send_cb(void *data, int len)
+     ^~~~~~~~~~~~~
+../src/test.c: In function 'canprocessing':
+../src/test.c:329:6: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  int status;
+      ^~~~~~
+At top level:
+../src/test.c:106:12: warning: 'evt_have_data' defined but not used [-Wunused-variable]
+ static int evt_have_data = 0;
+            ^~~~~~~~~~~~~
+Finished building: ../src/test.c
+ 
+Building target: amptest.elf
+Invoking: ARM R5 gcc linker
+armr5-none-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../amptest_bsp/psu_cortexr5_0/lib -o "amptest.elf"  ./src/can_app.o ./src/helper.o ./src/platform_info.o ./src/rsc_table.o ./src/tcc_app.o ./src/test.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lmetal,-lopen_amp,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lmetal,-lgcc,-lc,--end-group
+Finished building target: amptest.elf
+ 
+Invoking: ARM R5 Print Size
+armr5-none-eabi-size amptest.elf  |tee "amptest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 135240	   4784	  97864	 237888	  3a140	amptest.elf
+Finished building: amptest.elf.size
+ 
+
+13:02:57 Build Finished (took 688ms)
+

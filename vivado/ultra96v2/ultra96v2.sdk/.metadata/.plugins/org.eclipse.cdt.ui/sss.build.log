@@ -1,0 +1,56 @@
+10:19:56 **** Build of configuration Debug for project sss ****
+make all 
+Building file: ../src/ipi_latency_demod.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ipi_latency_demod.o" -mcpu=cortex-r5 -I../../sss_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/ipi_latency_demod.d" -MT"src/ipi_latency_demod.o" -o "src/ipi_latency_demod.o" "../src/ipi_latency_demod.c"
+Finished building: ../src/ipi_latency_demod.c
+ 
+Building file: ../src/ipi_shmem_demod.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ipi_shmem_demod.o" -mcpu=cortex-r5 -I../../sss_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/ipi_shmem_demod.d" -MT"src/ipi_shmem_demod.o" -o "src/ipi_shmem_demod.o" "../src/ipi_shmem_demod.c"
+Finished building: ../src/ipi_shmem_demod.c
+ 
+Building file: ../src/libmetal_amp_demod.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/libmetal_amp_demod.o" -mcpu=cortex-r5 -I../../sss_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/libmetal_amp_demod.d" -MT"src/libmetal_amp_demod.o" -o "src/libmetal_amp_demod.o" "../src/libmetal_amp_demod.c"
+Finished building: ../src/libmetal_amp_demod.c
+ 
+Building file: ../src/shmem_atomic_demod.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/shmem_atomic_demod.o" -mcpu=cortex-r5 -I../../sss_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/shmem_atomic_demod.d" -MT"src/shmem_atomic_demod.o" -o "src/shmem_atomic_demod.o" "../src/shmem_atomic_demod.c"
+Finished building: ../src/shmem_atomic_demod.c
+ 
+Building file: ../src/shmem_demod.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/shmem_demod.o" -mcpu=cortex-r5 -I../../sss_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/shmem_demod.d" -MT"src/shmem_demod.o" -o "src/shmem_demod.o" "../src/shmem_demod.c"
+Finished building: ../src/shmem_demod.c
+ 
+Building file: ../src/shmem_latency_demod.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/shmem_latency_demod.o" -mcpu=cortex-r5 -I../../sss_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/shmem_latency_demod.d" -MT"src/shmem_latency_demod.o" -o "src/shmem_latency_demod.o" "../src/shmem_latency_demod.c"
+Finished building: ../src/shmem_latency_demod.c
+ 
+Building file: ../src/shmem_throughput_demod.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/shmem_throughput_demod.o" -mcpu=cortex-r5 -I../../sss_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/shmem_throughput_demod.d" -MT"src/shmem_throughput_demod.o" -o "src/shmem_throughput_demod.o" "../src/shmem_throughput_demod.c"
+Finished building: ../src/shmem_throughput_demod.c
+ 
+Building file: ../src/sys_init.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sys_init.o" -mcpu=cortex-r5 -I../../sss_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/sys_init.d" -MT"src/sys_init.o" -o "src/sys_init.o" "../src/sys_init.c"
+Finished building: ../src/sys_init.c
+ 
+Building target: sss.elf
+Invoking: ARM R5 gcc linker
+armr5-none-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sss_bsp/psu_cortexr5_0/lib -o "sss.elf"  ./src/ipi_latency_demod.o ./src/ipi_shmem_demod.o ./src/libmetal_amp_demod.o ./src/shmem_atomic_demod.o ./src/shmem_demod.o ./src/shmem_latency_demod.o ./src/shmem_throughput_demod.o ./src/sys_init.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lmetal,-lgcc,-lc,--end-group
+Finished building target: sss.elf
+ 
+Invoking: ARM R5 Print Size
+armr5-none-eabi-size sss.elf  |tee "sss.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 110532	   4544	 101448	 216524	  34dcc	sss.elf
+Finished building: sss.elf.size
+ 
+
+10:19:56 Build Finished (took 463ms)
+

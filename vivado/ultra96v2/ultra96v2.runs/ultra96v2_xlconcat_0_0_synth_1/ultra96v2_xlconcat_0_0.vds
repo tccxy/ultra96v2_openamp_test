@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Aug 20 14:03:20 2019
+# Process ID: 7966
+# Current directory: /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_xlconcat_0_0_synth_1
+# Command line: vivado -log ultra96v2_xlconcat_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ultra96v2_xlconcat_0_0.tcl
+# Log file: /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_xlconcat_0_0_synth_1/ultra96v2_xlconcat_0_0.vds
+# Journal file: /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_xlconcat_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ultra96v2_xlconcat_0_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP ultra96v2_xlconcat_0_0, cache-ID = 55c673755e7f969e.
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 20 14:03:34 2019...

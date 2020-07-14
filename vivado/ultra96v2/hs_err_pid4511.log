@@ -1,0 +1,12 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/opt/vivado_2018.2/Vivado/2018.2/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x923da9) [0x7fcda1f12da9]
+/opt/vivado_2018.2/Vivado/2018.2/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xb6) [0x7fcda1f193f6]
+/opt/vivado_2018.2/Vivado/2018.2/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x9209d3) [0x7fcda1f0f9d3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7fcde071f4b0]
+/opt/vivado_2018.2/Vivado/2018.2/lib/lnx64.o/librdi_common.so(+0x491d6e) [0x7fcde16e6d6e]
+/opt/vivado_2018.2/Vivado/2018.2/lib/lnx64.o/librdi_common.so(HI18N::Convert::Out(char const*, char const*, std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >&, std::codecvt<wchar_t, char, __mbstate_t> const&)+0x186) [0x7fcde16e71f6]
+/opt/vivado_2018.2/Vivado/2018.2/lib/lnx64.o/librdi_filemgmt.so(Java_ui_data_designgraph_designgraphi_DesignGraph_1getGraphName+0x43) [0x7fcdbbf85153]
+[0x7fcd945fdd71]

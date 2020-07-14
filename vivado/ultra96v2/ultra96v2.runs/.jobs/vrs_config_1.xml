@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ultra96v2_clk_wiz_0_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ultra96v2_proc_sys_reset_0_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_proc_sys_reset_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ultra96v2_zynq_ultra_ps_e_0_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_zynq_ultra_ps_e_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ultra96v2_xlconcat_1_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_xlconcat_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ultra96v2_xlconcat_0_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_xlconcat_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="ultra96v2_xlconcat_1_0_synth_1"/>
+	</Run>
+	<Run Id="ultra96v2_proc_sys_reset_1_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_proc_sys_reset_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ultra96v2_proc_sys_reset_2_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_proc_sys_reset_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ultra96v2_proc_sys_reset_3_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_proc_sys_reset_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ultra96v2_proc_sys_reset_4_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_proc_sys_reset_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ultra96v2_proc_sys_reset_5_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_proc_sys_reset_5_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ultra96v2_proc_sys_reset_6_0_synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/ultra96v2_proc_sys_reset_6_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ultra96v2_clk_wiz_0_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_0_0_synth_1"/>
+		<Parent Id="ultra96v2_zynq_ultra_ps_e_0_0_synth_1"/>
+		<Parent Id="ultra96v2_xlconcat_1_0_synth_1"/>
+		<Parent Id="ultra96v2_xlconcat_0_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_1_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_2_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_3_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_4_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_5_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_6_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="ultra96v2_clk_wiz_0_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_0_0_synth_1"/>
+		<Parent Id="ultra96v2_zynq_ultra_ps_e_0_0_synth_1"/>
+		<Parent Id="ultra96v2_xlconcat_1_0_synth_1"/>
+		<Parent Id="ultra96v2_xlconcat_0_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_1_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_2_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_3_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_4_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_5_0_synth_1"/>
+		<Parent Id="ultra96v2_proc_sys_reset_6_0_synth_1"/>
+	</Run>
+</Runs>
+

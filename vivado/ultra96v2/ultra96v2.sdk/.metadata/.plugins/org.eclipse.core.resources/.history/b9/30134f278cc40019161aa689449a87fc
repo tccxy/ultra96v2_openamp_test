@@ -1,0 +1,9 @@
+#ifndef _TCC_APP_H_
+#define _TCC_APP_H_
+extern SemaphoreHandle_t BinarySemaphore;
+
+
+
+int test_app(void);
+
+#endif

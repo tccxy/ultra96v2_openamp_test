@@ -1,0 +1,87 @@
+14:21:30 INFO  : Registering command handlers for SDK TCF services
+14:21:30 INFO  : Launching XSCT server: xsct -n -interactive /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/temp_xsdb_launch_script.tcl
+14:21:31 INFO  : XSCT server has started successfully.
+14:21:31 INFO  : Successfully done setting XSCT server connection channel  
+14:21:32 INFO  : Successfully done setting SDK workspace  
+14:21:32 INFO  : Processing command line option -hwspec /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf.
+14:23:01 INFO  : Refreshed build settings on project amp_test
+09:57:48 INFO  : No changes in MSS file content so not generating sources.
+17:11:24 INFO  : Refreshed build settings on project amptest
+11:43:15 INFO  : Refreshed build settings on project amp_test
+13:47:07 INFO  : Registering command handlers for SDK TCF services
+13:47:07 INFO  : Launching XSCT server: xsct -n -interactive /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/temp_xsdb_launch_script.tcl
+13:47:08 INFO  : XSCT server has started successfully.
+13:47:08 INFO  : Successfully done setting XSCT server connection channel  
+13:47:08 INFO  : Successfully done setting SDK workspace  
+13:47:08 INFO  : Processing command line option -hwspec /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf.
+13:47:08 INFO  : Checking for hwspec changes in the project ultra96v2_wrapper_hw_platform_0.
+13:47:13 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1566452806000,  Project:1566281245000
+13:47:13 INFO  : The hardware specification for project 'ultra96v2_wrapper_hw_platform_0' is different from /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf.
+13:47:13 INFO  : Copied contents of /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf into /ultra96v2_wrapper_hw_platform_0/system.hdf.
+13:47:20 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:47:21 INFO  : 
+13:47:22 INFO  : Updating hardware inferred compiler options for amptest.
+13:47:22 INFO  : Clearing existing target manager status.
+13:47:22 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:47:23 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+08:23:36 INFO  : Registering command handlers for SDK TCF services
+08:23:37 INFO  : Launching XSCT server: xsct -n -interactive /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/temp_xsdb_launch_script.tcl
+08:23:38 INFO  : XSCT server has started successfully.
+08:23:38 INFO  : Successfully done setting XSCT server connection channel  
+08:23:38 INFO  : Successfully done setting SDK workspace  
+08:23:38 INFO  : Processing command line option -hwspec /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf.
+08:23:38 INFO  : Checking for hwspec changes in the project ultra96v2_wrapper_hw_platform_0.
+10:51:45 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1566528676000,  Project:1566452806000
+10:51:45 INFO  : Project ultra96v2_wrapper_hw_platform_0's source hardware specification located at /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+10:51:47 INFO  : Copied contents of /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf into /ultra96v2_wrapper_hw_platform_0/system.hdf.
+10:51:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:51:56 INFO  : 
+10:51:56 INFO  : Updating hardware inferred compiler options for amptest.
+10:51:56 INFO  : Clearing existing target manager status.
+10:51:56 INFO  : Closing and re-opening the MSS file of ther project amptest_bsp
+10:51:57 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:51:58 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:53:40 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1566546798000,  Project:1566528676000
+15:53:40 INFO  : Project ultra96v2_wrapper_hw_platform_0's source hardware specification located at /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:53:42 INFO  : Copied contents of /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf into /ultra96v2_wrapper_hw_platform_0/system.hdf.
+15:53:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:53:50 INFO  : 
+15:53:51 INFO  : Updating hardware inferred compiler options for amptest.
+15:54:02 INFO  : Clearing existing target manager status.
+15:54:02 INFO  : Closing and re-opening the MSS file of ther project amptest_bsp
+15:54:03 INFO  : Closing and re-opening the MSS file of ther project amptest_bsp
+15:54:03 INFO  : Closing and re-opening the MSS file of ther project amptest_bsp
+15:54:03 INFO  : Closing and re-opening the MSS file of ther project amptest_bsp
+15:54:03 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:54:04 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:47:33 INFO  : Registering command handlers for SDK TCF services
+16:47:34 INFO  : Launching XSCT server: xsct -n -interactive /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/temp_xsdb_launch_script.tcl
+16:47:35 INFO  : XSCT server has started successfully.
+16:47:35 INFO  : Successfully done setting XSCT server connection channel  
+16:47:35 INFO  : Successfully done setting SDK workspace  
+16:47:35 INFO  : Processing command line option -hwspec /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf.
+16:47:35 INFO  : Checking for hwspec changes in the project ultra96v2_wrapper_hw_platform_0.
+08:20:51 INFO  : Registering command handlers for SDK TCF services
+08:20:51 INFO  : Launching XSCT server: xsct -n -interactive /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/temp_xsdb_launch_script.tcl
+08:20:52 INFO  : XSCT server has started successfully.
+08:20:52 INFO  : Successfully done setting XSCT server connection channel  
+08:20:52 INFO  : Successfully done setting SDK workspace  
+08:20:52 INFO  : Processing command line option -hwspec /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf.
+08:20:52 INFO  : Checking for hwspec changes in the project ultra96v2_wrapper_hw_platform_0.
+08:25:35 INFO  : Registering command handlers for SDK TCF services
+08:25:36 INFO  : Launching XSCT server: xsct -n -interactive /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/temp_xsdb_launch_script.tcl
+08:25:37 INFO  : XSCT server has started successfully.
+08:25:37 INFO  : Successfully done setting XSCT server connection channel  
+08:25:37 INFO  : Successfully done setting SDK workspace  
+08:25:37 INFO  : Processing command line option -hwspec /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf.
+08:25:37 INFO  : Checking for hwspec changes in the project ultra96v2_wrapper_hw_platform_0.
+09:55:47 INFO  : Registering command handlers for SDK TCF services
+09:55:48 INFO  : Launching XSCT server: xsct -n -interactive /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/temp_xsdb_launch_script.tcl
+09:55:49 INFO  : XSCT server has started successfully.
+09:55:49 INFO  : Successfully done setting XSCT server connection channel  
+09:55:49 INFO  : Successfully done setting SDK workspace  
+09:55:49 INFO  : Processing command line option -hwspec /home/zw/swap/share/ultra96/SDSoC-Ultra96-V2/vivado/ultra96v2/ultra96v2.sdk/ultra96v2_wrapper.hdf.
+09:55:49 INFO  : Checking for hwspec changes in the project ultra96v2_wrapper_hw_platform_0.
+13:02:48 INFO  : No changes in MSS file content so not generating sources.

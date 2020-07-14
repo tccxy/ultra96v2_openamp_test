@@ -1,0 +1,9 @@
+#ifndef _TCC_APP_H_
+#define _TCC_APP_H_
+
+
+
+
+int tcc_init(void);
+int tcc_start(void);
+#endif

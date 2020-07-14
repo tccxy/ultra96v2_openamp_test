@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "platform_info.h": "c",
+        "xscugic.h": "c",
+        "xttcps.h": "c",
+        "xil_mpu.h": "c",
+        "freertos.h": "c",
+        "can_app.h": "c",
+        "test.h": "c",
+        "sleep.h": "c"
+    }
+}

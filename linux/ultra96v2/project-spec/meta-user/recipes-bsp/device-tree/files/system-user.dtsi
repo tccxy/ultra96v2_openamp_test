@@ -1,0 +1,13 @@
+/include/ "system-conf.dtsi"
+/include/ "openamp-overlay.dtsi"
+/{
+    xlnk {
+        compatible = "xlnx,xlnk-1.0";
+    };
+};
+&can0 {
+	status = "disabled";
+};
+&ttc1 {
+	status = "okay";
+};

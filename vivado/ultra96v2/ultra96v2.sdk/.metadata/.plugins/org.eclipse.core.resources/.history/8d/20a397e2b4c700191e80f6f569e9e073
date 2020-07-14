@@ -1,0 +1,10 @@
+#ifndef _CAN_APP_H_
+#define _CAN_APP_H_
+
+
+
+
+int can_init(void);
+int can_send();
+
+#endif
